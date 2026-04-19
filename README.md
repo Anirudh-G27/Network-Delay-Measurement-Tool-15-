@@ -45,9 +45,20 @@ h1 ping -c 4 -Q 8 h2: The controller will route this via the Slow Path. The expe
 
 ## 4. Proof of Execution
 
+* Ping results
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3f7d5f34-ae4b-4f43-b283-902528ab0e00" />
+
+<br>
+
+* Flow Table
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8fdaf547-513f-4b6b-835e-3eb56637c847" />
+
+<br>
+
 * Fast Path Verification (ToS = 4)
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/72f448e5-0acb-443c-a2ca-42812683a5d2" />
 
+<br>
 
 * Slow Path Verification (ToS = 8)
 <img width="1920" height="1080" alt="Screenshot 2026-04-19 204100" src="https://github.com/user-attachments/assets/744c238d-24fd-4726-a03d-0c90b6c3f5c5" />
