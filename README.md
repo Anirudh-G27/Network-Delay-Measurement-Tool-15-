@@ -41,3 +41,13 @@ When testing connectivity using the ping command with the -Q (ToS) flag:
 h1 ping -c 4 -Q 4 h2: The controller will route this via the Fast Path. The expected Round Trip Time (RTT) is approximately ~20-25ms.
 
 h1 ping -c 4 -Q 8 h2: The controller will route this via the Slow Path. The expected RTT is approximately ~200-205ms.
+
+
+## 4. Proof of Execution
+
+* Fast Path Verification (ToS = 4)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/72f448e5-0acb-443c-a2ca-42812683a5d2" />
+
+
+* Slow Path Verification (ToS = 8)
+<img width="1920" height="1080" alt="Screenshot 2026-04-19 204100" src="https://github.com/user-attachments/assets/744c238d-24fd-4726-a03d-0c90b6c3f5c5" />
