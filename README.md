@@ -26,7 +26,7 @@ cd ~/pox
 Navigate to the directory containing the topology script and start Mininet, connecting it to the remote controller.
 ```bash
 sudo mn -c
-sudo mn --custom delay_topo.py --topo delaytopo --mac --controller=remote --link t
+sudo mn --custom delay_topo.py --topo delaytopo --mac --controller=remote --link tc
 ```
 
 ## 3. Expected Output
